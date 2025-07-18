@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f1a;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1f1f2e;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+    color: #00ffc8;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section h2 {
+    color: #00ffc8;
+  }
+  
+  a {
+    color: #00ffc8;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1f1f2e;
+    color: #999;
+  }
+  .binary-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    font-size: 12px;
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.044);
+    white-space: pre-wrap;
+    padding: 40px;
+    overflow: auto;
+    user-select: text;
+    pointer-events: none;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+  .cyber-box {
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #00ffcc88;
+    border: 1px solid #00ffcc55;
+    font-family: 'Share Tech Mono', monospace;
+    max-width: 800px;
+    line-height: 1.6;
+    transition: transform 0.2s ease;
+  }
+  
+  .cyber-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 18px #00fff288;
+  }
+  
